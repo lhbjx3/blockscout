@@ -52,14 +52,5 @@
         </div>
       <% end %>
     </div>
-
-    <% version = version() %>
-
-    <%= unless ignore_version?(version) do %>
-      <% release_link = release_link(version) %>
-      <div>
-
-      </div>
-    <% end %>
   </div>
 </footer>
